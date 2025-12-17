@@ -1,0 +1,122 @@
+body{
+    font-family: "Segoe UI", sans-serif;
+    background: #f6f9fd;
+    margin: 0;
+}
+
+.detail-hero{
+    background: #b7d5fb;
+    padding: 60px 8%;
+    text-align: center;
+    color: #1f2d3d;
+    margin-top: 12vh;
+}
+
+.detail-hero h1{
+    font-size: 36px;
+}
+
+.detail-content{
+    padding: 50px 8%;
+}
+
+.detail-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    margin-top: 25px;
+}
+
+.detail-image img{
+    max-width: 400px;
+    width: 100%;
+    border-radius: 18px;
+}
+
+.detail-info{
+    flex: 1;
+}
+
+.detail-info h2{
+    color: #1f2d3d;
+    margin-bottom: 15px;
+}
+
+.detail-info .date{
+    color: #777;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.detail-info p{
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.detail-info .price{
+    font-weight: bold;
+    color: #1f2d3d;
+}
+
+.buy-btn{
+    background: #b7d5fb;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.buy-btn:hover{
+    background: #9ec4f5;
+}
+
+.related-section{
+    padding: 50px 8%;
+}
+
+.related-section h3{
+    color: #1f2d3d;
+    margin-bottom: 25px;
+}
+
+.related-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.related-card{
+    background: #fff;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.related-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.related-card h4{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #1f2d3d;
+}
+
+.related-card a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #1f2d3d;
+}
